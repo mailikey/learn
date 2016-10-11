@@ -20,5 +20,21 @@ body{
 }
 .larger-item{
     width: 100%;
-    margin: 0 30px 30px 30px;
+  padding: 30px;
+}
+.large-text{
+    color: #53545e;
+margin-right: 60px;
+}
+.button {
+    background-color: #53545e;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
 }
