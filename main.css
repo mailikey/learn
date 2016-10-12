@@ -47,13 +47,12 @@ body {
 }
 
 .small-items-wrapper {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.small-items-wrapper :first-child {
+.small-items-wrapper:first-child {
     margin-right: 30px;
 }
