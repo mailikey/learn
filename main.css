@@ -46,7 +46,8 @@ body {
     margin-bottom: 60px;
 }
 
-.small-items-wrapper {
+.small-items-wrapper  {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,5 +55,9 @@ body {
 }
 
 .small-items-wrapper:first-child {
-    margin-right: 30px;
+
+}
+.small-item{
+    width: 50%;
+
 }
