@@ -43,4 +43,18 @@ body {
     margin-top: 30px;
     height: 30px;
     width: 80px;
+    margin-bottom: 60px;
 }
+
+.small-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-items-wrapper :first-child {
+    margin-right: 30px;
+}
+
