@@ -43,4 +43,26 @@ body {
     margin-top: 30px;
     height: 30px;
     width: 80px;
+    margin-bottom: 60px;
+}
+
+.small-item {
+    display: table-row-group;
+}
+
+.small-item :first-child {
+    margin-right: 30px;
+}
+
+.text-small-item {
+
+}
+
+.text1 {
+
+
+}
+
+.text2 {
+
 }
