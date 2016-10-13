@@ -12,7 +12,7 @@
 
 }
 
-.content {
+.content, .footer-wrapper {
     background-color: #ffffff;
     width: 600px;
     margin: auto;
@@ -47,7 +47,6 @@ body {
     padding-top: 10px;
     font-size: 14px;
 
-
 }
 
 .small-items-wrapper {
@@ -68,7 +67,7 @@ body {
 
 }
 
-.add-space {
+.add-space, .rick {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,4 +106,51 @@ h1 {
     font-size: 14px;;
     color: #53545e;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #53545e;
+    color: white;
+    padding: 30px;
+
+}
+
+.summer {
+    margin-left: 6%;
+    display: flex;
+    width: 24%;
+    flex-direction: column;
+}
+
+.morty {
+    width: 70%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-wrapper {
+
+}
+
+.rick {
+    margin-right: 0;
+}
+
+.poloska {
+    width: 540px;
+    height: 1px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hui {
+    float: left;
+}
+
+.hui2 {
+    float: right;
 }
