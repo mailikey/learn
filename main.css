@@ -19,16 +19,19 @@
 }
 
 body {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
+    margin: 0px;
 }
 
 .larger-item {
     width: 100%;
     padding: 30px;
+    font-family: "MyriadProRegular"
+
 }
 
 .large-text {
-    color: #53545e;
+    color: #bfc0c3;
     margin-right: 60px;
 }
 
@@ -43,10 +46,10 @@ body {
     margin-top: 30px;
     height: 30px;
     width: 80px;
-    margin-bottom: 60px;
+
     padding-top: 10px;
     font-size: 14px;
-
+    font-weight: 600
 }
 
 .small-items-wrapper {
@@ -56,6 +59,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .small-items-wrapper:first-child {
@@ -64,8 +68,10 @@ body {
 
 .small-item {
     width: 50%;
+    color: #bfc0c3;
 
 }
+
 
 .add-space, .rick {
     display: flex;
@@ -78,8 +84,8 @@ body {
 
 .blog-post {
 
-    margin-right: 30px;
-    padding: 20px;
+    color: #bfc0c3;
+    padding-right: 40px;
 }
 
 .stay-connected {
@@ -103,16 +109,20 @@ body {
 }
 
 h1 {
-    font-size: 14px;;
+
     color: #53545e;
-    font-weight: bold;
+
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .footer {
     background-color: #53545e;
     color: white;
     padding: 30px;
-
+    font-family: "MyriadProRegular";
+    font-size:15px;
 }
 
 .summer {
@@ -137,6 +147,8 @@ a {
 
 .rick {
     margin-right: 0;
+    line-height: 22px;
+
 }
 
 .poloska {
@@ -149,8 +161,33 @@ a {
 
 .hui {
     float: left;
+    color: #7a7b84;
 }
 
 .hui2 {
     float: right;
+    color: #7a7b84;
+}
+.something{
+    margin-right: 30px;
+    float: right;
+    margin-top: 45px;
+    color: #a6a7b0;
+    font-family: "MyriadProRegular"
+
+}
+.poloska2{
+    background-color: #eaeaea;
+    width: 540px;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.stay-connected h1 {
+    margin-left: 30px;
+    font-family: "MyriadProRegular"
+}
+.colortext{
+    color:white;
 }
