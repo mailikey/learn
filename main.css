@@ -52,7 +52,8 @@ body {
 
     padding-top: 10px;
     font-size: 14px;
-    font-weight: 600
+    font-weight: 600;
+    font-family: "MyriadProRegular";
 }
 
 .small-items-wrapper {
@@ -75,7 +76,6 @@ body {
     color: #bfc0c3;
 
 }
-
 
 .add-space, .rick {
     display: flex;
@@ -119,6 +119,7 @@ h1 {
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1px;
+    font-family: "MyriadProRegular"
 }
 
 .footer {
@@ -126,7 +127,7 @@ h1 {
     color: white;
     padding: 30px;
     font-family: "MyriadProRegular";
-    font-size:15px;
+    font-size: 15px;
 }
 
 .summer {
@@ -172,15 +173,16 @@ a {
     float: right;
     color: #7a7b84;
 }
-.something{
+
+.something {
     margin-right: 30px;
     float: right;
     margin-top: 45px;
     color: #a6a7b0;
-    font-family: "MyriadProRegular"
-
+    font-family: "MyriadProRegular";
 }
-.poloska2{
+
+.poloska2 {
     background-color: #eaeaea;
     width: 90%;
     height: 1px;
@@ -189,37 +191,135 @@ a {
     margin-left: 30px;
 
 }
+
 .stay-connected h1 {
     margin-left: 30px;
-    font-family: "MyriadProRegular"
-}
-.colortext{
-    color:white;
+    font-family: "MyriadProRegular";
 }
 
-@media (max-width: 800px) {
-    .content-header, .content, .footer-wrapper{
-        width:auto;
+.colortext {
+    color: white;
+}
+
+.blog-one, .blog-one2 {
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+.blog-one2 {
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .content-header, .content, .footer-wrapper {
+        width: auto;
+    }
+
+    .add-space {
+        flex-direction: column;
     }
 
     .larger-item {
         width: calc(100% - 85px);
-        display:flex;
-        justify-content:center;
-        flex-direction:column;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
     }
-    .small-items-wrapper{
+
+    .small-items-wrapper {
         width: 90%;
     }
 
+    .something {
+        margin-top: 36px;
+        font-size: 25px;
 
+    }
+
+    .button {
+        height: 33px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .h1 {
+        font-size: 25px;
+    }
+
+    .stay-connected h1 {
+        font-size: 26px;
+        margin-top: 8px;
+
+    }
+
+    .small-item {
+        font-size: 25px;
+    }
+
+    .small-item h1 {
+        font-size: 25px;
+    }
+
+    .morty {
+        font-size: 23px;
+    }
+
+    .summer {
+        font-size: 22px;
+    }
+
+    .hui {
+        font-size: 22px;
+        margin-top: -10px;
+    }
+
+    .hui2 {
+        font-size: 22px;
+        margin-top: -10px;
+    }
 }
-.blog-one ,.blog-one2{
-    padding-right: 40px ;
-    margin-left: 30px;
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    .content-header, .content, .footer-wrapper {
+        width: auto;
+    }
+
+    .larger-item {
+        width: calc(100% - 85px);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .small-items-wrapper {
+        width: 90%;
+    }
 }
-.blog-one2{
-    padding-bottom: 30px;
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    .content-header, .content, .footer-wrapper {
+        width: auto;
+    }
+
+    .larger-item {
+        width: calc(100% - 85px);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .small-items-wrapper {
+        width: 90%;
+    }
 
 }
