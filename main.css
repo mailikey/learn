@@ -25,7 +25,7 @@ body {
 }
 
 .larger-item {
-    width: 100%;
+    width: calc(100% - 60px);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -62,9 +62,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
 }
 
 .small-items-wrapper:first-child {
@@ -72,9 +69,12 @@ body {
 }
 
 .small-item {
-    width: 50%;
+    width: 40%;
     color: #bfc0c3;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 5%;
 }
 
 .add-space, .rick {
@@ -83,7 +83,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;;
     align-items: center;
-    margin-right: 10px;
+
 }
 
 .blog-post {
@@ -221,22 +221,14 @@ and (max-device-width: 480px) {
     }
 
     .larger-item {
-        width: calc(100% - 85px);
+        width: calc(100% - 60px);
         display: flex;
         justify-content: center;
         flex-direction: column;
 
     }
 
-    .small-items-wrapper {
-        width: 90%;
-    }
 
-    .something {
-        margin-top: 36px;
-        font-size: 25px;
-
-    }
 
     .button {
         height: 33px;
@@ -249,35 +241,52 @@ and (max-device-width: 480px) {
     }
 
     .stay-connected h1 {
-        font-size: 26px;
+        font-size: 20px;
         margin-top: 8px;
 
     }
 
     .small-item {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .small-item h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .morty {
-        font-size: 23px;
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: -5%;
+        width: 64%;
+
     }
 
     .summer {
-        font-size: 22px;
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: -5%;
+        width: 40%;
+
     }
 
     .hui {
-        font-size: 22px;
-        margin-top: -10px;
+        font-size: 16px;
+        margin-top: 0;
     }
 
     .hui2 {
-        font-size: 22px;
-        margin-top: -10px;
+        font-size: 16px;
+        margin-top: -36px;
+    }
+    .something{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .logo-head img{
+        margin-left: 0;
+        padding-top: 0;
+
     }
 }
 
@@ -290,7 +299,7 @@ and (orientation: portrait) {
     }
 
     .larger-item {
-        width: calc(100% - 85px);
+        width: calc(100% - 60px);
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -298,8 +307,12 @@ and (orientation: portrait) {
     }
 
     .small-items-wrapper {
-        width: 90%;
+        width: 100%;
     }
+    .logo-head{
+
+    }
+
 }
 
 @media only screen
@@ -311,7 +324,7 @@ and (orientation: landscape) {
     }
 
     .larger-item {
-        width: calc(100% - 85px);
+        width: calc(100% - 60px);
         display: flex;
         justify-content: center;
         flex-direction: column;
