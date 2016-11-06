@@ -59,8 +59,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 
 .small-items-wrapper:first-child {
@@ -73,7 +73,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right: 5%;
 }
 
 .add-space, .rick {
